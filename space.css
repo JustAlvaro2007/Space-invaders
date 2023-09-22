@@ -1,0 +1,21 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background-image: url('02meti1-superJumbo-v8.gif'); /* Pfad zum GIF-Bild */
+    background-size: cover;
+   
+}
+
+#board {
+    background-color: rgba(0, 0, 0, 0.7); /* Hintergrundfarbe für das Spielbrett */
+    /* Weitere Stile für das Spielbrett hier hinzufügen */
+}
+
+@keyframes backgroundAnimation {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 100% 100%;
+    }
+}
